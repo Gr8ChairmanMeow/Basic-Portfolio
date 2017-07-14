@@ -7,7 +7,11 @@
 
 a{
 	text-decoration: none;
-	color:grey;
+	color:lightgrey;
+}
+
+a:hover {
+	color:darkgrey;
 }
 
 body{
@@ -20,25 +24,44 @@ nav,
 	float:right;
 }
 
+.about,
+.contact {
+	padding:20px 30px;
+	margin:50px;
+	background:white;
+	color:#4aaaa5;
+	font-weight:bolder;
+	font-family:serif;
+	line-height: 2.5;
+}
+
 .about {
 	float:left;
 	left:10%;
-	background:white;
 	width:500px;
 	height:500px;
-	padding:50px;
-	margin:50px;
+	font-size:36px;
+}
+
+.contact {	
+	right:10%;
+	width:300px;
+	height:200px;
+	text-align:center;
+	font-size:24px;
 }
 
 .javi{
 	position:relative;
 	background:#4aaaa5;
 	height:100px;
-	width:150px;
+	width:200px;
 	padding-top:40px;
 	text-align:center;
-	font-weight: bolder;
+	font-weight:bolder;
 	left:10%;
+	color:white;
+	font-size:24px;
 }
 
 header{
@@ -55,7 +78,24 @@ nav{
 }
 
 footer{
-	text-align: center;
+	text-align:center;
+	height:100px;
+	background-color:darkgrey;
+	padding-top:40px;
+	font-size:12px;
+	letter-spacing: 5px;
+}
+
+hr{
+	border:lightgrey solid 1px;
+}
+
+#top {
+	border:grey solid 1px;
+}
+
+#hr{
+	border:#4aaaa5 solid 5px;
 }
 
 .clearfix:after {
