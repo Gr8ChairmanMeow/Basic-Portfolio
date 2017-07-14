@@ -1,0 +1,67 @@
+* {
+	box-sizing:border-box;
+	position:relative;
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+	color:grey;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background:lightgrey;
+}
+
+nav,
+.contact{
+	float:right;
+}
+
+.about {
+	float:left;
+	left:10%;
+	background:white;
+	width:500px;
+	height:500px;
+	padding:50px;
+	margin:50px;
+}
+
+.javi{
+	position:relative;
+	background:#4aaaa5;
+	height:100px;
+	width:150px;
+	padding-top:40px;
+	text-align:center;
+	font-weight: bolder;
+	left:10%;
+}
+
+header{
+	background:white;
+	height:100px;
+}
+
+nav{
+	position:relative;
+	right:10%;
+	top:40px;
+	word-spacing:10px;
+	font-weight:bold;
+}
+
+footer{
+	text-align: center;
+}
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
